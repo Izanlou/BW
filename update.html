@@ -1,0 +1,130 @@
+<html>
+    <head>
+        <meta name="viewport" charset="UTF-8" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+        <title>ʙʟᴀᴄᴋ ᴀɴᴅ ᴡʜɪᴛᴇ</title>
+        <link rel="icon" type="image/x-icon" href="./data/ICON.ico">
+    </head>
+    <body>
+        <div id="BG"></div>
+        <div id="main_div">
+        <div id="logo_div"><img class="logo" src="./data/LOGO.png"></div>
+        <div id="roller_div"><span id="roller">
+            Updating to V3!<br>
+            Lots of NEW things!<br>
+            Takes a WHILE :<<br>
+        <span id="roller_main">Please Just WAIT!</span></div></div>
+        <div id="footer_div"><span class="footer">Made with <span style="color: red;"><3</span> by <a class="url" href="https://ariaizanlou.ir">Izanlou</a> | Nov / 2023</span></div>
+    </body>
+</html>
+<style>
+    @font-face {
+	font-family: FONT;
+	src: url('../data/FONT.ttf');
+}
+@font-face {
+	font-family: FONTB;
+	src: url('../data/FONTB.ttf');
+}
+@font-face {
+	font-family: FFONT;
+	src: url('../data/FFONT.ttf');
+}
+@font-face {
+	font-family: FFONTB;
+	src: url('../data/FFONTB.ttf');
+}
+body, input{
+	margin: 0px;
+}
+#BG{
+	background-image: url("../data/BG2.png");
+	background-size: cover;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	top: 0px;
+	opacity: 0.1;
+}
+#main_div{
+	display: flex;
+	position: relative;
+	margin-inline: auto;
+	width: 450px;
+	max-width: 100%;
+	height: 100vh;
+	flex-direction: column;
+	background-color: #ffffff;
+}
+.url{
+	color: #3e3e3e;
+	font-family: FONTB;
+	text-decoration: none;
+	transition: 100ms;
+}
+.url:hover{
+	color: #777777;
+	transition: 100ms;
+}
+.logo{
+	display: block;
+	margin-inline: auto;
+	width: 150px;
+	height: 150px;
+	padding: 15px;
+    margin-top: 50%;
+    vertical-align: center;
+	border-radius: 40px;
+	background: #e0e0e0;
+}
+#roller_div{
+	height: 4rem;
+	line-height: 4rem;
+	position: relative;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-family: FONTB;
+	font-size: 24px;
+	-webkit-text-fill-color: transparent;
+	-webkit-text-stroke: 0.6px;
+}
+#roller{
+	position: absolute;
+	top: 0;
+	animation: slide 9s infinite;
+}
+#footer_div{
+	position: absolute;
+	left: 8px;
+	bottom: 6px;
+	font-family: FONT;
+	font-size: 12px;
+	color: #3e3e3e;
+}
+@keyframes slide {
+	0%{
+		top:0;
+	}
+	25%{
+		top: -4rem;
+	}
+	50%{
+		top: -8rem;
+	}
+	72.5%{
+		top: -12.25rem;
+	}
+}
+::-webkit-scrollbar{
+	display: none;
+}
+body{
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}
+</style>

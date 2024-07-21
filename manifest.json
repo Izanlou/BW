@@ -1,0 +1,25 @@
+{
+  "background_color": "#ffffff",
+  "description": "ʙʟᴀᴄᴋ ᴀɴᴅ ᴡʜɪᴛᴇ | Izanlou",
+  "dir": "auto",
+  "display": "standalone",
+  "name": "B&W",
+  "orientation": "any",
+  "scope": "/",
+  "start_url": "/",
+  "theme_color": "#ffffff",
+  "categories": [],
+  "screenshots": [],
+  "icons": [
+    {
+      "src": "./data/ICON.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "shortcuts": [],
+  "lang": "en",
+  "display_override": [
+    "fullscreen"
+  ]
+}
